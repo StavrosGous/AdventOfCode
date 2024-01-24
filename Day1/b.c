@@ -36,8 +36,6 @@ int main(int argc, char *argv[]) {
                 }
                 if (flag) break;
                 if (strstr(new_str, nums[j])) {
-                    
-                    if (flag) break;
                     n = j+1;
                     if (first_digit == -1) {
                         first_digit = n;
