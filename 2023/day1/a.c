@@ -22,16 +22,15 @@ int main(int argc, char *argv[]) {
             }
         }   
         sum += first_digit * 10;
-        printf("First digit: %d\n", first_digit);
         if (last_digit == -1) {
             sum += first_digit;
-            printf("Second digit: %d\n", first_digit);
         }
         else {
             sum += last_digit;
-            printf("Second digit: %d\n", last_digit);
         }
     
     }
-    printf("Sum is equal to: %d\n", sum);
+    printf("%d", sum);
+    fclose(f);
+    return 0;
 }
